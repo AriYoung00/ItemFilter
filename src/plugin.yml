@@ -1,0 +1,47 @@
+name: ItemFilter
+version: 0.0.1
+description: A plugin that filters the items that can be picked up by players.
+author: FlairHead
+main: net.craniumpvp.itemfilter.ItemFilter
+database: true
+
+commands:
+    itemfilter:
+        description: Choose items the items that you can pick up.
+        aliases: if
+        permission: itemfilter.filter.self
+        usage: ItemFilter commands do not take arguments.
+#   setfilter:
+#        description: Choose the items that another player can pick up.
+#        permission: itemfilter.filter.others
+#        aliases: sf
+#        usage: /&lt;command&gt; [player]
+#    viewfilter:
+#        description: View the items that another player can pick up.
+#        permission: itemfilter.view
+#        alises: vf
+#        usage: /&lt;command&gt; [player]
+
+permissions:
+#    itemfilter.*:
+#        description: Allows use of all ItemFilter commands.
+#        default: op
+#        children:
+#            itemfilter.filter.self: true
+#            itemfilter.filter.others: true
+#            itemfilter.view: true
+#    itemfilter.filter.*:
+#        description: Allows player to set filter settings of both self and others.
+#        default: false
+#        children:
+#            itemfilter.filter.self: true
+#            itemfilter.filter.others: true
+#    itemfilter.view:
+#        description: Allows player to view filter settings of others.
+#        default: false
+    itemfilter.filter.self:
+        description: Allows player to set filter of self.
+        default: true
+#    itemfilter.filter.others:
+#        description: Allows player to set filter settings of others.
+#        default: false

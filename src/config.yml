@@ -1,0 +1,7 @@
+# The prefix that is appended to all ItemFilter messages to players.
+# Use minecraft color codes, with '&' as the code init char
+# For example: &4 would be red
+# http://minecraft.gamepedia.com/Formatting_codes
+chat-message-prefix: "&8[&4ItemFilter&8]"
+
+# More config to come (control over filtered items, layout in GUI, etc.)
