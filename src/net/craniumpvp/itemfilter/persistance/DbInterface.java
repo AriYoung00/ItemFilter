@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
 
 
 public class DbInterface {
+	//I fucking hate VCS
 	
 	public void initDB(String path) {
 		

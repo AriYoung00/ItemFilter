@@ -5,6 +5,8 @@ import java.util.Arrays;
 import org.bukkit.inventory.ItemStack;
 
 public enum Category {
+	//I fucking hate VCS
+	
 	ARMOR, TOOLS, FOOD, POTIONS, BLOCKS, OTHER, NOT_CATEGORIZED;
 	
 	public static Category[] getTypes() {

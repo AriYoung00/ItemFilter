@@ -18,6 +18,8 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class EventMan implements Listener {
+	//I fucking hate VCS
+	
 	@EventHandler
 	public void InventoryClick(InventoryClickEvent i) {
 		Player p = (Player) i.getWhoClicked();
