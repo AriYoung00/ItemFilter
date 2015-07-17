@@ -1,4 +1,4 @@
-package net.craniumpvp.itemfilter.util;
+package io.flairhead.itemfilter.util;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.ArrayList;
 //import java.util.logging.Level;
 //import java.util.logging.Logger;
-
-import net.craniumpvp.itemfilter.ItemFilter;
 
 import org.apache.commons.lang.ArrayUtils;
 import org.bukkit.Bukkit;
@@ -20,6 +18,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.Potion;
 import org.bukkit.potion.PotionType;
+
+import io.flairhead.itemfilter.ItemFilter;
 
 public class ScreenUtil {
 	
@@ -440,7 +440,7 @@ public class ScreenUtil {
 		inv.setContents(items);
 		p.openInventory(inv);
 	}
-	
+
 	public static Material[] getOther() {
 		ItemStack[] items = {new ItemStack(Material.MONSTER_EGG), new ItemStack(Material.BEACON), new ItemStack(Material.BOOK), new ItemStack(Material.BOOK_AND_QUILL),
 				new ItemStack(Material.ENCHANTED_BOOK), new ItemStack(Material.PAPER), new ItemStack(Material.SLIME_BALL), new ItemStack(Material.BONE),

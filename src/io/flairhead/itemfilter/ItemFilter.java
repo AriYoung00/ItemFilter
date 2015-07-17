@@ -1,14 +1,14 @@
-package net.craniumpvp.itemfilter;
+package io.flairhead.itemfilter;
 
 import java.util.Collection;
-
-import net.craniumpvp.itemfilter.managers.*;
-import net.craniumpvp.itemfilter.util.*;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import io.flairhead.itemfilter.managers.*;
+import io.flairhead.itemfilter.util.*;
 
 
 public class ItemFilter extends JavaPlugin {

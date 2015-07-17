@@ -1,11 +1,7 @@
-package net.craniumpvp.itemfilter.managers;
+package io.flairhead.itemfilter.managers;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import net.craniumpvp.itemfilter.ItemFilter;
-import net.craniumpvp.itemfilter.util.Category;
-import net.craniumpvp.itemfilter.util.ScreenUtil;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -16,6 +12,10 @@ import org.bukkit.event.player.PlayerLoginEvent;
 import org.bukkit.event.player.PlayerPickupItemEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
+
+import io.flairhead.itemfilter.ItemFilter;
+import io.flairhead.itemfilter.util.Category;
+import io.flairhead.itemfilter.util.ScreenUtil;
 
 public class EventMan implements Listener {
 	//I fucking hate VCS

@@ -1,12 +1,12 @@
-package net.craniumpvp.itemfilter.managers;
+package io.flairhead.itemfilter.managers;
 
 import java.util.HashMap;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
-import net.craniumpvp.itemfilter.util.Category;
-import net.craniumpvp.itemfilter.util.ScreenUtil;
+import io.flairhead.itemfilter.util.Category;
+import io.flairhead.itemfilter.util.ScreenUtil;
 
 public class PlayerMan {
 	private HashMap<Player, HashMap<Category, HashMap<Material, Boolean>>> players = new HashMap<>();

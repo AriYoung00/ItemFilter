@@ -1,4 +1,4 @@
-package net.craniumpvp.itemfilter.persistance;
+package io.flairhead.itemfilter.persistance;
 
 import java.util.logging.Logger;
 

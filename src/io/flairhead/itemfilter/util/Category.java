@@ -1,4 +1,4 @@
-package net.craniumpvp.itemfilter.util;
+package io.flairhead.itemfilter.util;
 
 import java.util.Arrays;
 

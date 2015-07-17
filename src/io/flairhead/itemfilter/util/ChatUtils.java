@@ -1,4 +1,4 @@
-package net.craniumpvp.itemfilter.util;
+package io.flairhead.itemfilter.util;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
